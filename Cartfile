@@ -1,1 +1,1 @@
-github "Carthage/Carthage" ~> 0.17.2
+github "Carthage/Carthage" >= 0.17.2

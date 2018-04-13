@@ -39,7 +39,7 @@ uninstall:
 	rm -rf "$(FRAMEWORKS_FOLDER)/$(OUTPUT_FRAMEWORK)"
 	rm -f "$(BINARIES_FOLDER)/cartfilediff"
 
-installables: clean bootstrap
+installables: #clean bootstrap
 	xcodebuild $(XCODEFLAGS) install
 
 	mkdir -p "$(TEMPORARY_FOLDER)$(FRAMEWORKS_FOLDER)" "$(TEMPORARY_FOLDER)$(BINARIES_FOLDER)"

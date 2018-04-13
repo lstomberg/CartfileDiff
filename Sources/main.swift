@@ -7,7 +7,7 @@
 //
 
 import Foundation
-//import CarthageKit
+import CarthageKit
 //import Result
 //import CartfileDiffKit
 print("hi")
